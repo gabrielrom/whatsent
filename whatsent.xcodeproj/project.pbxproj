@@ -326,6 +326,7 @@
 				DEVELOPMENT_TEAM = C362HHR2VV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = whatsent/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WhatSent;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -357,6 +358,7 @@
 				DEVELOPMENT_TEAM = C362HHR2VV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = whatsent/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WhatSent;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
