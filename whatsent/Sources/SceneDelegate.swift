@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let window = self.window else { return }
         
-        window.rootViewController = LoginViewController()
+        window.rootViewController = SignInViewController()
         window.makeKeyAndVisible()
     }
 

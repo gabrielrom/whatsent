@@ -8,7 +8,7 @@
 import UIKit
 import Foundation
 
-class LoginViewController: UIViewController {
+class SignInViewController: UIViewController {
     lazy var greeting: UILabel = {
         let label = UILabel()
         
