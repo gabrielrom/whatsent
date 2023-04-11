@@ -12,6 +12,10 @@
 		C7C6982029E5DA3C008B3E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C6981F29E5DA3C008B3E6B /* Assets.xcassets */; };
 		C7C6982329E5DA3C008B3E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C6982129E5DA3C008B3E6B /* LaunchScreen.storyboard */; };
 		C7C6983229E5EA35008B3E6B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C6983129E5EA35008B3E6B /* SignInViewController.swift */; };
+		C7C6983829E60BF1008B3E6B /* Archivo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7C6983629E60BF1008B3E6B /* Archivo-SemiBold.ttf */; };
+		C7C6983929E60BF1008B3E6B /* Archivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7C6983729E60BF1008B3E6B /* Archivo-Regular.ttf */; };
+		C7C6983C29E61A94008B3E6B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7C6983A29E61A94008B3E6B /* Inter-Regular.ttf */; };
+		C7C6983D29E61A94008B3E6B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7C6983B29E61A94008B3E6B /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C7C6982229E5DA3C008B3E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7C6982429E5DA3C008B3E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C6983129E5EA35008B3E6B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C7C6983629E60BF1008B3E6B /* Archivo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-SemiBold.ttf"; sourceTree = "<group>"; };
+		C7C6983729E60BF1008B3E6B /* Archivo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Regular.ttf"; sourceTree = "<group>"; };
+		C7C6983A29E61A94008B3E6B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		C7C6983B29E61A94008B3E6B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,7 @@
 		C7C6982B29E5E1F2008B3E6B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C7C6983529E60BAD008B3E6B /* Fonts */,
 				C7C6981F29E5DA3C008B3E6B /* Assets.xcassets */,
 				C7C6982129E5DA3C008B3E6B /* LaunchScreen.storyboard */,
 				C7C6982429E5DA3C008B3E6B /* Info.plist */,
@@ -110,6 +119,17 @@
 				C7C6983129E5EA35008B3E6B /* SignInViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C7C6983529E60BAD008B3E6B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C7C6983B29E61A94008B3E6B /* Inter-Medium.ttf */,
+				C7C6983A29E61A94008B3E6B /* Inter-Regular.ttf */,
+				C7C6983729E60BF1008B3E6B /* Archivo-Regular.ttf */,
+				C7C6983629E60BF1008B3E6B /* Archivo-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C6983829E60BF1008B3E6B /* Archivo-SemiBold.ttf in Resources */,
+				C7C6983C29E61A94008B3E6B /* Inter-Regular.ttf in Resources */,
+				C7C6983D29E61A94008B3E6B /* Inter-Medium.ttf in Resources */,
 				C7C6982329E5DA3C008B3E6B /* LaunchScreen.storyboard in Resources */,
+				C7C6983929E60BF1008B3E6B /* Archivo-Regular.ttf in Resources */,
 				C7C6982029E5DA3C008B3E6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
